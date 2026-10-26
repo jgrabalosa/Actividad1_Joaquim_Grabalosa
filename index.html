@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda - Carrito de la compra</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="carrito.js" defer></script>
+</head>
+<body>
+    <header class="cabecera">
+        <h1>Tienda</h1>
+        <p>Carrito de la compra</p>
+    </header>
+
+    <main class="contenedor">
+        <section class="zona-productos">
+            <h2>Productos</h2>
+            <div class="fila cabecera-tabla">
+                <span>Producto</span>
+                <span>Cantidad</span>
+                <span>Precio unidad</span>
+                <span>Subtotal</span>
+            </div>
+            <div id="productos">
+                <p>Cargando productos...</p>
+            </div>
+        </section>
+
+        <aside class="resumen">
+            <h2>Total</h2>
+            <div id="detalle-total"></div>
+            <hr>
+            <p class="total-final">TOTAL <strong id="total">0,00 €</strong></p>
+        </aside>
+    </main>
+</body>
+</html>
